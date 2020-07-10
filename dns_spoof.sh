@@ -211,6 +211,13 @@ read -rsp $'Press enter to continue...\n'
 gnome-terminal -e "netdiscover"
 
 echo " "
+echo "            ********************************************************************"
+echo "            * Una vez sepas que IP Atacar cierra la ventana del escaneo de IPs *"
+echo "            ********************************************************************"
+echo " "
+read -rsp $'Press enter to continue...\n'
+
+echo " "
 echo " 		**************************************************"
 echo "          	* Ingrese la IP del Router. Ejemplo: 192.168.1.1 *"
 echo " 		**************************************************"
