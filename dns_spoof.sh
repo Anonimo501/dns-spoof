@@ -38,8 +38,8 @@ read -rsp $'Press enter to continue...\n'
 
 echo " "
 echo "          **********************************************************************"
-echo "                  * ingresa dominio de la pagina a clonar (http) Ejemplo: unoraya.com  *"
-echo "                  **********************************************************************"
+echo "          * ingresa dominio de la pagina a clonar (http) Ejemplo: unoraya.com  *"
+echo "          **********************************************************************"
 echo " "
 read dominio
 
@@ -211,30 +211,30 @@ read -rsp $'Press enter to continue...\n'
 gnome-terminal -e "netdiscover"
 
 echo " "
-echo "                  ********************************************************************"
-echo "                  * Una vez sepas que IP Atacar cierra la ventana del escaneo de IPs *"
-echo "                  ********************************************************************"
+echo "          ********************************************************************"
+echo "          * Una vez sepas que IP Atacar cierra la ventana del escaneo de IPs *"
+echo "          ********************************************************************"
 echo " "
 read -rsp $'Press enter to continue...\n'
 
 echo " "
 echo "          *******************************************************"
-echo "                  * Ingrese la IP de la Victima. Ejemplo: 192.168.1.100 *"
+echo "          * Ingrese la IP de la Victima. Ejemplo: 192.168.1.100 *"
 echo "          *******************************************************"
 echo " "
 read victima
 
 echo " "
 echo "          *******************************************************"
-echo "                  * Ingrese la IP del Router. Ejemplo: 192.168.1.1      *"
+echo "          * Ingrese la IP del Router. Ejemplo: 192.168.1.1      *"
 echo "          *******************************************************"
 echo " "
 read router
 
 echo " "
-echo "                  ******************************************************************************************"
-echo "                  * Ingrese la TU IP de Atacante. Ejemplo: 192.168.1.70 (Esto para configurar el iptables) *"
-echo "                  ******************************************************************************************"
+echo "          ******************************************************************************************"
+echo "          * Ingrese la TU IP de Atacante. Ejemplo: 192.168.1.70 (Esto para configurar el iptables) *"
+echo "          ******************************************************************************************"
 echo " "
 read ipatacante
 
